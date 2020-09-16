@@ -1,0 +1,47 @@
+hub HiC_Hanna_b5000_q0.01
+shortLabel HiC Hanna
+longLabel HiC significant interactions binsize:5000, q-val:0.01
+useOneFile on
+email jo.urailidis@gmail.com
+
+genome mm9
+
+track KO_P2ASNM
+shortLabel B - Spt5 KO (S) P2ASNM
+longLabel Spt5 KO peak to all: stringent mode on, merge mode off
+color 200,0,100
+visibility full
+spectrum on
+minGrayLevel 4
+type bigInteract
+bigDataUrl https://github.com/iouraili/HiC_UCSC/blob/master/HiC_interactions_UCSC_bin5000_0.01/ucsc_conv_ko_SNM_nmerged_P2AS_FitHiChIP.interactions_FitHiC_Q0.01.bb?raw=true
+
+track WT_P2ASNM
+shortLabel A - Spt5 WT (S) P2ASNM
+longLabel Spt5 WT peak to all: stringent mode on, merge mode off
+color 200,0,100
+visibility full
+spectrum on
+minGrayLevel 4
+type bigInteract
+bigDataUrl https://github.com/iouraili/HiC_UCSC/blob/master/HiC_interactions_UCSC_bin5000_0.01/ucsc_conv_wt_SNM_nmerged_P2AS_FitHiChIP.interactions_FitHiC_Q0.01.bb?raw=true
+
+track KO_P2ASM
+shortLabel D - Spt5 KO (S+M) P2AS
+longLabel Spt5 KO peak to all: stringent and merge modes on
+color 200,0,100
+visibility full
+spectrum on
+minGrayLevel 4
+type bigInteract
+bigDataUrl https://github.com/iouraili/HiC_UCSC/blob/master/HiC_interactions_UCSC_bin5000_0.01/ucsc_conv_ko_SM_merged_P2AS_FitHiChIP.interactions_FitHiC_Q0.01.bb?raw=true
+
+track WT_P2ASM
+shortLabel C - Spt5 WT (S+M) P2AS
+longLabel Spt5 WT peak to all: stringent and merge modes on
+color 200,0,100
+visibility full
+spectrum on
+minGrayLevel 4
+type bigInteract
+bigDataUrl https://github.com/iouraili/HiC_UCSC/blob/master/HiC_interactions_UCSC_bin5000_0.01/ucsc_conv_wt_SM_merged_P2AS_FitHiChIP.interactions_FitHiC_Q0.01.bb?raw=true
